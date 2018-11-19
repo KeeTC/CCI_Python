@@ -3,8 +3,6 @@ def fact(n):
 	# Base Case
 	if n == 0:
 		return 1
-
-
 	else:
 		return n * fact(n-1)
 
@@ -29,7 +27,6 @@ def sum_func(n):
 	# Base Case
 	if len(str(n)) == 1:
 		return n
-
 	else:
 		return n%10 + sum_func(n%10)
 
