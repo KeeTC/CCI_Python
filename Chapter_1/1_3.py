@@ -7,7 +7,7 @@ def urlifyString(str):
 		if char != ' ':
 			start = True
 
-		if (char == ' ' and start == True):
+		if char == ' ' and start == True:
 			res += '02%'
 		else: res += char
 	return res[::-1]
